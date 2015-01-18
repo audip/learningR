@@ -1,0 +1,78 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.2.1
+RVersion: 3.1.2
+Repos: CRAN=http://cran.rstudio.com
+
+Package: NLP
+Source: CRAN
+Version: 0.1-5
+Hash: 82a8f709b9a1ddedc33d8805c3501d80
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+Hash: 9a3ac4e5fd8059af0fc5156bcb019bbc
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.5
+Hash: 1187c1ea73013abf25f362a7e6da1046
+Requires: bitops
+
+Package: XML
+Source: CRAN
+Version: 3.98-1.1
+Hash: 13746d37588e7083349177d6e8234864
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: cb26464a8321628636b547518994c931
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: 89dc4c8734dad5322bb3c5c2af09056f
+
+Package: httr
+Source: CRAN
+Version: 0.6.1
+Hash: 3b082465d75a7a0c3d09ad06a0905aff
+Requires: R6, RCurl, digest, jsonlite, mime, stringr
+
+Package: jsonlite
+Source: CRAN
+Version: 0.9.14
+Hash: 1e949c7f0f926734e2ff498eddb2309a
+
+Package: mime
+Source: CRAN
+Version: 0.2
+Hash: 9179db921fcb2e5be44e217042ed06bc
+
+Package: packrat
+Source: CRAN
+Version: 0.4.2-1
+Hash: 085f944cec9b56e8a280222b5174c76e
+
+Package: rJava
+Source: CRAN
+Version: 0.9-6
+Hash: 5ea21341e7c1d6a40cdde6ef470fec92
+
+Package: stringr
+Source: CRAN
+Version: 0.6.2
+Hash: cdde0cfa0f52cffeaca23a11a3899779
+
+Package: xlsx
+Source: CRAN
+Version: 0.5.7
+Hash: 4083efd9872d1c233a6b6b1ccfc13e4a
+Requires: rJava, xlsxjars
+
+Package: xlsxjars
+Source: CRAN
+Version: 0.6.1
+Hash: 3601d069f9b45b0d9a39b6954f4fed48
+Requires: rJava
